@@ -23,7 +23,6 @@ RUN yum -y install rpm dnf-plugins-core \
       sudo \
       which \
       hostname \
-      python3-pyOpenSSL \
       libyaml-devel \
  && yum clean all
 
